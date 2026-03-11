@@ -1,0 +1,1632 @@
+{
+  "count": 202,
+  "source": "NREL NSRDB GOES TMY v4.0.0",
+  "fields": [
+    "db",
+    "wb",
+    "dp",
+    "rh",
+    "pressure",
+    "ghi",
+    "dni",
+    "dhi"
+  ],
+  "stations": [
+    {
+      "id": "NYC",
+      "name": "New York, NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "state": "NY",
+      "fileSize": 341.5
+    },
+    {
+      "id": "LAX",
+      "name": "Los Angeles, CA",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "state": "CA",
+      "fileSize": 334.8
+    },
+    {
+      "id": "CHI",
+      "name": "Chicago, IL",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "state": "IL",
+      "fileSize": 336.0
+    },
+    {
+      "id": "HOU",
+      "name": "Houston, TX",
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "state": "TX",
+      "fileSize": 347.6
+    },
+    {
+      "id": "PHX",
+      "name": "Phoenix, AZ",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "state": "AZ",
+      "fileSize": 335.9
+    },
+    {
+      "id": "PHL",
+      "name": "Philadelphia, PA",
+      "lat": 39.9526,
+      "lon": -75.1652,
+      "state": "PA",
+      "fileSize": 343.4
+    },
+    {
+      "id": "SAN",
+      "name": "San Antonio, TX",
+      "lat": 29.4241,
+      "lon": -98.4936,
+      "state": "TX",
+      "fileSize": 339.7
+    },
+    {
+      "id": "SDG",
+      "name": "San Diego, CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "state": "CA",
+      "fileSize": 348.3
+    },
+    {
+      "id": "DAL",
+      "name": "Dallas, TX",
+      "lat": 32.7767,
+      "lon": -96.797,
+      "state": "TX",
+      "fileSize": 339.6
+    },
+    {
+      "id": "ATL",
+      "name": "Atlanta, GA",
+      "lat": 33.749,
+      "lon": -84.388,
+      "state": "GA",
+      "fileSize": 336.7
+    },
+    {
+      "id": "MIA",
+      "name": "Miami, FL",
+      "lat": 25.7617,
+      "lon": -80.1918,
+      "state": "FL",
+      "fileSize": 351.9
+    },
+    {
+      "id": "BOS",
+      "name": "Boston, MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "state": "MA",
+      "fileSize": 341.8
+    },
+    {
+      "id": "SFO",
+      "name": "San Francisco, CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "state": "CA",
+      "fileSize": 343.8
+    },
+    {
+      "id": "DET",
+      "name": "Detroit, MI",
+      "lat": 42.3314,
+      "lon": -83.0458,
+      "state": "MI",
+      "fileSize": 336.8
+    },
+    {
+      "id": "SEA",
+      "name": "Seattle, WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "state": "WA",
+      "fileSize": 333.5
+    },
+    {
+      "id": "MSP",
+      "name": "Minneapolis, MN",
+      "lat": 44.9778,
+      "lon": -93.265,
+      "state": "MN",
+      "fileSize": 339.0
+    },
+    {
+      "id": "DEN",
+      "name": "Denver, CO",
+      "lat": 39.7392,
+      "lon": -104.9903,
+      "state": "CO",
+      "fileSize": 335.0
+    },
+    {
+      "id": "DCA",
+      "name": "Washington, DC",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "state": "DC",
+      "fileSize": 343.6
+    },
+    {
+      "id": "TPA",
+      "name": "Tampa, FL",
+      "lat": 27.9506,
+      "lon": -82.4572,
+      "state": "FL",
+      "fileSize": 350.5
+    },
+    {
+      "id": "STL",
+      "name": "St. Louis, MO",
+      "lat": 38.627,
+      "lon": -90.1994,
+      "state": "MO",
+      "fileSize": 340.5
+    },
+    {
+      "id": "BAL",
+      "name": "Baltimore, MD",
+      "lat": 39.2904,
+      "lon": -76.6122,
+      "state": "MD",
+      "fileSize": 342.8
+    },
+    {
+      "id": "ORL",
+      "name": "Orlando, FL",
+      "lat": 28.5383,
+      "lon": -81.3792,
+      "state": "FL",
+      "fileSize": 350.5
+    },
+    {
+      "id": "CLT",
+      "name": "Charlotte, NC",
+      "lat": 35.2271,
+      "lon": -80.8431,
+      "state": "NC",
+      "fileSize": 337.4
+    },
+    {
+      "id": "PIT",
+      "name": "Pittsburgh, PA",
+      "lat": 40.4406,
+      "lon": -79.9959,
+      "state": "PA",
+      "fileSize": 334.9
+    },
+    {
+      "id": "PDX",
+      "name": "Portland, OR",
+      "lat": 45.5152,
+      "lon": -122.6784,
+      "state": "OR",
+      "fileSize": 333.0
+    },
+    {
+      "id": "SAC",
+      "name": "Sacramento, CA",
+      "lat": 38.5816,
+      "lon": -121.4944,
+      "state": "CA",
+      "fileSize": 340.2
+    },
+    {
+      "id": "LAS",
+      "name": "Las Vegas, NV",
+      "lat": 36.1699,
+      "lon": -115.1398,
+      "state": "NV",
+      "fileSize": 334.7
+    },
+    {
+      "id": "CIN",
+      "name": "Cincinnati, OH",
+      "lat": 39.1031,
+      "lon": -84.512,
+      "state": "OH",
+      "fileSize": 338.0
+    },
+    {
+      "id": "AUS",
+      "name": "Austin, TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "state": "TX",
+      "fileSize": 341.5
+    },
+    {
+      "id": "CLE",
+      "name": "Cleveland, OH",
+      "lat": 41.4993,
+      "lon": -81.6944,
+      "state": "OH",
+      "fileSize": 334.3
+    },
+    {
+      "id": "KCM",
+      "name": "Kansas City, MO",
+      "lat": 39.0997,
+      "lon": -94.5786,
+      "state": "MO",
+      "fileSize": 336.9
+    },
+    {
+      "id": "CLB",
+      "name": "Columbus, OH",
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "state": "OH",
+      "fileSize": 335.3
+    },
+    {
+      "id": "IND",
+      "name": "Indianapolis, IN",
+      "lat": 39.7684,
+      "lon": -86.1581,
+      "state": "IN",
+      "fileSize": 335.6
+    },
+    {
+      "id": "SJC",
+      "name": "San Jose, CA",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "state": "CA",
+      "fileSize": 342.4
+    },
+    {
+      "id": "NSH",
+      "name": "Nashville, TN",
+      "lat": 36.1627,
+      "lon": -86.7816,
+      "state": "TN",
+      "fileSize": 341.5
+    },
+    {
+      "id": "RDU",
+      "name": "Raleigh, NC",
+      "lat": 35.7796,
+      "lon": -78.6382,
+      "state": "NC",
+      "fileSize": 344.1
+    },
+    {
+      "id": "MEM",
+      "name": "Memphis, TN",
+      "lat": 35.1495,
+      "lon": -90.049,
+      "state": "TN",
+      "fileSize": 344.2
+    },
+    {
+      "id": "MKE",
+      "name": "Milwaukee, WI",
+      "lat": 43.0389,
+      "lon": -87.9065,
+      "state": "WI",
+      "fileSize": 337.3
+    },
+    {
+      "id": "JAX",
+      "name": "Jacksonville, FL",
+      "lat": 30.3322,
+      "lon": -81.6557,
+      "state": "FL",
+      "fileSize": 349.1
+    },
+    {
+      "id": "OKC",
+      "name": "Oklahoma City, OK",
+      "lat": 35.4676,
+      "lon": -97.5164,
+      "state": "OK",
+      "fileSize": 336.4
+    },
+    {
+      "id": "RIC",
+      "name": "Richmond, VA",
+      "lat": 37.5407,
+      "lon": -77.436,
+      "state": "VA",
+      "fileSize": 344.0
+    },
+    {
+      "id": "NOR",
+      "name": "Norfolk, VA",
+      "lat": 36.8508,
+      "lon": -76.2859,
+      "state": "VA",
+      "fileSize": 342.8
+    },
+    {
+      "id": "SLC",
+      "name": "Salt Lake City, UT",
+      "lat": 40.7608,
+      "lon": -111.891,
+      "state": "UT",
+      "fileSize": 332.7
+    },
+    {
+      "id": "BHM",
+      "name": "Birmingham, AL",
+      "lat": 33.5207,
+      "lon": -86.8025,
+      "state": "AL",
+      "fileSize": 339.4
+    },
+    {
+      "id": "NOL",
+      "name": "New Orleans, LA",
+      "lat": 29.9511,
+      "lon": -90.0715,
+      "state": "LA",
+      "fileSize": 348.5
+    },
+    {
+      "id": "BUF",
+      "name": "Buffalo, NY",
+      "lat": 42.8864,
+      "lon": -78.8784,
+      "state": "NY",
+      "fileSize": 334.3
+    },
+    {
+      "id": "ROC",
+      "name": "Rochester, NY",
+      "lat": 43.1566,
+      "lon": -77.6088,
+      "state": "NY",
+      "fileSize": 337.2
+    },
+    {
+      "id": "HFD",
+      "name": "Hartford, CT",
+      "lat": 41.7658,
+      "lon": -72.6734,
+      "state": "CT",
+      "fileSize": 342.5
+    },
+    {
+      "id": "PVD",
+      "name": "Providence, RI",
+      "lat": 41.824,
+      "lon": -71.4128,
+      "state": "RI",
+      "fileSize": 342.8
+    },
+    {
+      "id": "GRR",
+      "name": "Grand Rapids, MI",
+      "lat": 42.9634,
+      "lon": -85.6681,
+      "state": "MI",
+      "fileSize": 335.3
+    },
+    {
+      "id": "TUC",
+      "name": "Tucson, AZ",
+      "lat": 32.2226,
+      "lon": -110.9747,
+      "state": "AZ",
+      "fileSize": 335.7
+    },
+    {
+      "id": "ABQ",
+      "name": "Albuquerque, NM",
+      "lat": 35.0844,
+      "lon": -106.6504,
+      "state": "NM",
+      "fileSize": 335.3
+    },
+    {
+      "id": "OMA",
+      "name": "Omaha, NE",
+      "lat": 41.2565,
+      "lon": -95.9345,
+      "state": "NE",
+      "fileSize": 337.8
+    },
+    {
+      "id": "ELP",
+      "name": "El Paso, TX",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "state": "TX",
+      "fileSize": 335.7
+    },
+    {
+      "id": "HAR",
+      "name": "Harrisburg, PA",
+      "lat": 40.2732,
+      "lon": -76.8867,
+      "state": "PA",
+      "fileSize": 341.8
+    },
+    {
+      "id": "ALB",
+      "name": "Albany, NY",
+      "lat": 42.6526,
+      "lon": -73.7562,
+      "state": "NY",
+      "fileSize": 341.2
+    },
+    {
+      "id": "DSM",
+      "name": "Des Moines, IA",
+      "lat": 41.5868,
+      "lon": -93.625,
+      "state": "IA",
+      "fileSize": 336.8
+    },
+    {
+      "id": "BOI",
+      "name": "Boise, ID",
+      "lat": 43.615,
+      "lon": -116.2023,
+      "state": "ID",
+      "fileSize": 331.5
+    },
+    {
+      "id": "LIT",
+      "name": "Little Rock, AR",
+      "lat": 34.7465,
+      "lon": -92.2896,
+      "state": "AR",
+      "fileSize": 343.5
+    },
+    {
+      "id": "TUL",
+      "name": "Tulsa, OK",
+      "lat": 36.154,
+      "lon": -95.9928,
+      "state": "OK",
+      "fileSize": 335.8
+    },
+    {
+      "id": "GNV",
+      "name": "Greenville, SC",
+      "lat": 34.8526,
+      "lon": -82.394,
+      "state": "SC",
+      "fileSize": 335.4
+    },
+    {
+      "id": "KNX",
+      "name": "Knoxville, TN",
+      "lat": 35.9606,
+      "lon": -83.9207,
+      "state": "TN",
+      "fileSize": 334.9
+    },
+    {
+      "id": "CHS",
+      "name": "Charleston, SC",
+      "lat": 32.7765,
+      "lon": -79.9311,
+      "state": "SC",
+      "fileSize": 347.1
+    },
+    {
+      "id": "LEX",
+      "name": "Lexington, KY",
+      "lat": 38.0406,
+      "lon": -84.5037,
+      "state": "KY",
+      "fileSize": 335.9
+    },
+    {
+      "id": "LOU",
+      "name": "Louisville, KY",
+      "lat": 38.2527,
+      "lon": -85.7585,
+      "state": "KY",
+      "fileSize": 339.9
+    },
+    {
+      "id": "DAY",
+      "name": "Dayton, OH",
+      "lat": 39.7589,
+      "lon": -84.1916,
+      "state": "OH",
+      "fileSize": 335.9
+    },
+    {
+      "id": "AKR",
+      "name": "Akron, OH",
+      "lat": 41.0814,
+      "lon": -81.519,
+      "state": "OH",
+      "fileSize": 335.1
+    },
+    {
+      "id": "TOL",
+      "name": "Toledo, OH",
+      "lat": 41.6528,
+      "lon": -83.5379,
+      "state": "OH",
+      "fileSize": 336.3
+    },
+    {
+      "id": "SAV",
+      "name": "Savannah, GA",
+      "lat": 32.0809,
+      "lon": -81.0912,
+      "state": "GA",
+      "fileSize": 347.2
+    },
+    {
+      "id": "WPB",
+      "name": "West Palm Beach, FL",
+      "lat": 26.7153,
+      "lon": -80.0534,
+      "state": "FL",
+      "fileSize": 351.4
+    },
+    {
+      "id": "FTL",
+      "name": "Fort Lauderdale, FL",
+      "lat": 26.1224,
+      "lon": -80.1373,
+      "state": "FL",
+      "fileSize": 351.5
+    },
+    {
+      "id": "RNO",
+      "name": "Reno, NV",
+      "lat": 39.5296,
+      "lon": -119.8138,
+      "state": "NV",
+      "fileSize": 331.3
+    },
+    {
+      "id": "SPO",
+      "name": "Spokane, WA",
+      "lat": 47.6588,
+      "lon": -117.426,
+      "state": "WA",
+      "fileSize": 329.9
+    },
+    {
+      "id": "MAD",
+      "name": "Madison, WI",
+      "lat": 43.0731,
+      "lon": -89.4012,
+      "state": "WI",
+      "fileSize": 336.8
+    },
+    {
+      "id": "SYR",
+      "name": "Syracuse, NY",
+      "lat": 43.0481,
+      "lon": -76.1474,
+      "state": "NY",
+      "fileSize": 340.6
+    },
+    {
+      "id": "WIC",
+      "name": "Wichita, KS",
+      "lat": 37.6872,
+      "lon": -97.3301,
+      "state": "KS",
+      "fileSize": 335.7
+    },
+    {
+      "id": "LNK",
+      "name": "Lincoln, NE",
+      "lat": 40.8136,
+      "lon": -96.7026,
+      "state": "NE",
+      "fileSize": 337.2
+    },
+    {
+      "id": "COS",
+      "name": "Colorado Springs, CO",
+      "lat": 38.8339,
+      "lon": -104.8214,
+      "state": "CO",
+      "fileSize": 335.9
+    },
+    {
+      "id": "HNL",
+      "name": "Honolulu, HI",
+      "lat": 21.3069,
+      "lon": -157.8583,
+      "state": "HI",
+      "fileSize": 351.4
+    },
+    {
+      "id": "BTV",
+      "name": "Burlington, VT",
+      "lat": 44.4759,
+      "lon": -73.2121,
+      "state": "VT",
+      "fileSize": 339.6
+    },
+    {
+      "id": "PWM",
+      "name": "Portland, ME",
+      "lat": 43.6591,
+      "lon": -70.2568,
+      "state": "ME",
+      "fileSize": 340.9
+    },
+    {
+      "id": "MHT",
+      "name": "Manchester, NH",
+      "lat": 42.9956,
+      "lon": -71.4548,
+      "state": "NH",
+      "fileSize": 341.4
+    },
+    {
+      "id": "FAR",
+      "name": "Fargo, ND",
+      "lat": 46.8772,
+      "lon": -96.7898,
+      "state": "ND",
+      "fileSize": 339.4
+    },
+    {
+      "id": "BIS",
+      "name": "Bismarck, ND",
+      "lat": 46.8083,
+      "lon": -100.7837,
+      "state": "ND",
+      "fileSize": 337.6
+    },
+    {
+      "id": "SFE",
+      "name": "Santa Fe, NM",
+      "lat": 35.687,
+      "lon": -105.9378,
+      "state": "NM",
+      "fileSize": 336.8
+    },
+    {
+      "id": "CID",
+      "name": "Cedar Rapids, IA",
+      "lat": 41.9779,
+      "lon": -91.6656,
+      "state": "IA",
+      "fileSize": 337.4
+    },
+    {
+      "id": "FWA",
+      "name": "Fort Wayne, IN",
+      "lat": 41.0793,
+      "lon": -85.1394,
+      "state": "IN",
+      "fileSize": 335.8
+    },
+    {
+      "id": "MOB",
+      "name": "Mobile, AL",
+      "lat": 30.6954,
+      "lon": -88.0399,
+      "state": "AL",
+      "fileSize": 347.5
+    },
+    {
+      "id": "HSV",
+      "name": "Huntsville, AL",
+      "lat": 34.7304,
+      "lon": -86.5861,
+      "state": "AL",
+      "fileSize": 336.9
+    },
+    {
+      "id": "MGM",
+      "name": "Montgomery, AL",
+      "lat": 32.3792,
+      "lon": -86.3077,
+      "state": "AL",
+      "fileSize": 346.0
+    },
+    {
+      "id": "JAC",
+      "name": "Jackson, MS",
+      "lat": 32.2988,
+      "lon": -90.1848,
+      "state": "MS",
+      "fileSize": 345.6
+    },
+    {
+      "id": "SHV",
+      "name": "Shreveport, LA",
+      "lat": 32.5252,
+      "lon": -93.7502,
+      "state": "LA",
+      "fileSize": 345.5
+    },
+    {
+      "id": "BTR",
+      "name": "Baton Rouge, LA",
+      "lat": 30.4515,
+      "lon": -91.1871,
+      "state": "LA",
+      "fileSize": 347.9
+    },
+    {
+      "id": "CRP",
+      "name": "Corpus Christi, TX",
+      "lat": 27.8006,
+      "lon": -97.3964,
+      "state": "TX",
+      "fileSize": 349.2
+    },
+    {
+      "id": "LBB",
+      "name": "Lubbock, TX",
+      "lat": 33.5779,
+      "lon": -101.8552,
+      "state": "TX",
+      "fileSize": 335.8
+    },
+    {
+      "id": "AMA",
+      "name": "Amarillo, TX",
+      "lat": 35.222,
+      "lon": -101.8313,
+      "state": "TX",
+      "fileSize": 336.4
+    },
+    {
+      "id": "MCI",
+      "name": "McAllen, TX",
+      "lat": 26.2034,
+      "lon": -98.23,
+      "state": "TX",
+      "fileSize": 349.7
+    },
+    {
+      "id": "FRS",
+      "name": "Fresno, CA",
+      "lat": 36.7378,
+      "lon": -119.7871,
+      "state": "CA",
+      "fileSize": 333.9
+    },
+    {
+      "id": "BAK",
+      "name": "Bakersfield, CA",
+      "lat": 35.3733,
+      "lon": -119.0187,
+      "state": "CA",
+      "fileSize": 337.0
+    },
+    {
+      "id": "RVS",
+      "name": "Riverside, CA",
+      "lat": 33.9533,
+      "lon": -117.3962,
+      "state": "CA",
+      "fileSize": 333.6
+    },
+    {
+      "id": "STO",
+      "name": "Stockton, CA",
+      "lat": 37.9577,
+      "lon": -121.2908,
+      "state": "CA",
+      "fileSize": 341.0
+    },
+    {
+      "id": "TAC",
+      "name": "Tacoma, WA",
+      "lat": 47.2529,
+      "lon": -122.4443,
+      "state": "WA",
+      "fileSize": 330.2
+    },
+    {
+      "id": "EUG",
+      "name": "Eugene, OR",
+      "lat": 44.0521,
+      "lon": -123.0868,
+      "state": "OR",
+      "fileSize": 327.9
+    },
+    {
+      "id": "CHA",
+      "name": "Chattanooga, TN",
+      "lat": 35.0456,
+      "lon": -85.3097,
+      "state": "TN",
+      "fileSize": 335.5
+    },
+    {
+      "id": "GSO",
+      "name": "Greensboro, NC",
+      "lat": 36.0726,
+      "lon": -79.792,
+      "state": "NC",
+      "fileSize": 336.5
+    },
+    {
+      "id": "WNS",
+      "name": "Winston-Salem, NC",
+      "lat": 36.0999,
+      "lon": -80.2442,
+      "state": "NC",
+      "fileSize": 335.7
+    },
+    {
+      "id": "DUR",
+      "name": "Durham, NC",
+      "lat": 35.994,
+      "lon": -78.8986,
+      "state": "NC",
+      "fileSize": 343.5
+    },
+    {
+      "id": "COL",
+      "name": "Columbia, SC",
+      "lat": 34.0007,
+      "lon": -81.0348,
+      "state": "SC",
+      "fileSize": 344.5
+    },
+    {
+      "id": "AUG",
+      "name": "Augusta, GA",
+      "lat": 33.4735,
+      "lon": -81.9748,
+      "state": "GA",
+      "fileSize": 344.5
+    },
+    {
+      "id": "PEN",
+      "name": "Pensacola, FL",
+      "lat": 30.4213,
+      "lon": -87.2169,
+      "state": "FL",
+      "fileSize": 348.1
+    },
+    {
+      "id": "TAL",
+      "name": "Tallahassee, FL",
+      "lat": 30.4383,
+      "lon": -84.2807,
+      "state": "FL",
+      "fileSize": 348.5
+    },
+    {
+      "id": "FTM",
+      "name": "Fort Myers, FL",
+      "lat": 26.6406,
+      "lon": -81.8723,
+      "state": "FL",
+      "fileSize": 351.1
+    },
+    {
+      "id": "SRQ",
+      "name": "Sarasota, FL",
+      "lat": 27.3364,
+      "lon": -82.5307,
+      "state": "FL",
+      "fileSize": 351.2
+    },
+    {
+      "id": "DAB",
+      "name": "Daytona Beach, FL",
+      "lat": 29.2108,
+      "lon": -81.0228,
+      "state": "FL",
+      "fileSize": 350.2
+    },
+    {
+      "id": "GVL",
+      "name": "Gainesville, FL",
+      "lat": 29.6516,
+      "lon": -82.3248,
+      "state": "FL",
+      "fileSize": 349.8
+    },
+    {
+      "id": "MCO",
+      "name": "Melbourne, FL",
+      "lat": 28.0836,
+      "lon": -80.6081,
+      "state": "FL",
+      "fileSize": 350.8
+    },
+    {
+      "id": "SCR",
+      "name": "Scranton, PA",
+      "lat": 41.409,
+      "lon": -75.6624,
+      "state": "PA",
+      "fileSize": 334.5
+    },
+    {
+      "id": "ABE",
+      "name": "Allentown, PA",
+      "lat": 40.6084,
+      "lon": -75.4902,
+      "state": "PA",
+      "fileSize": 340.5
+    },
+    {
+      "id": "ERI",
+      "name": "Erie, PA",
+      "lat": 42.1292,
+      "lon": -80.0851,
+      "state": "PA",
+      "fileSize": 335.4
+    },
+    {
+      "id": "RDG",
+      "name": "Reading, PA",
+      "lat": 40.3357,
+      "lon": -75.9269,
+      "state": "PA",
+      "fileSize": 341.5
+    },
+    {
+      "id": "LAN",
+      "name": "Lancaster, PA",
+      "lat": 40.0379,
+      "lon": -76.3055,
+      "state": "PA",
+      "fileSize": 341.8
+    },
+    {
+      "id": "YRK",
+      "name": "York, PA",
+      "lat": 39.9626,
+      "lon": -76.7277,
+      "state": "PA",
+      "fileSize": 340.9
+    },
+    {
+      "id": "WBR",
+      "name": "Wilkes-Barre, PA",
+      "lat": 41.2459,
+      "lon": -75.8813,
+      "state": "PA",
+      "fileSize": 336.9
+    },
+    {
+      "id": "NHV",
+      "name": "New Haven, CT",
+      "lat": 41.3083,
+      "lon": -72.9279,
+      "state": "CT",
+      "fileSize": 341.8
+    },
+    {
+      "id": "BPT",
+      "name": "Bridgeport, CT",
+      "lat": 41.1865,
+      "lon": -73.1952,
+      "state": "CT",
+      "fileSize": 341.6
+    },
+    {
+      "id": "SPR",
+      "name": "Springfield, MA",
+      "lat": 42.1015,
+      "lon": -72.5898,
+      "state": "MA",
+      "fileSize": 341.9
+    },
+    {
+      "id": "WOR",
+      "name": "Worcester, MA",
+      "lat": 42.2626,
+      "lon": -71.8023,
+      "state": "MA",
+      "fileSize": 339.3
+    },
+    {
+      "id": "NWK",
+      "name": "Newark, NJ",
+      "lat": 40.7357,
+      "lon": -74.1724,
+      "state": "NJ",
+      "fileSize": 341.9
+    },
+    {
+      "id": "TRN",
+      "name": "Trenton, NJ",
+      "lat": 40.2171,
+      "lon": -74.7429,
+      "state": "NJ",
+      "fileSize": 342.5
+    },
+    {
+      "id": "WLM",
+      "name": "Wilmington, DE",
+      "lat": 39.7391,
+      "lon": -75.5398,
+      "state": "DE",
+      "fileSize": 343.2
+    },
+    {
+      "id": "CHR",
+      "name": "Charleston, WV",
+      "lat": 38.3498,
+      "lon": -81.6326,
+      "state": "WV",
+      "fileSize": 334.5
+    },
+    {
+      "id": "GSP",
+      "name": "Greenville, NC",
+      "lat": 35.6127,
+      "lon": -77.3664,
+      "state": "NC",
+      "fileSize": 344.8
+    },
+    {
+      "id": "WIL",
+      "name": "Wilmington, NC",
+      "lat": 34.2257,
+      "lon": -77.9447,
+      "state": "NC",
+      "fileSize": 346.2
+    },
+    {
+      "id": "FYV",
+      "name": "Fayetteville, AR",
+      "lat": 36.0626,
+      "lon": -94.1574,
+      "state": "AR",
+      "fileSize": 336.0
+    },
+    {
+      "id": "SGF",
+      "name": "Springfield, MO",
+      "lat": 37.209,
+      "lon": -93.2923,
+      "state": "MO",
+      "fileSize": 335.8
+    },
+    {
+      "id": "EVV",
+      "name": "Evansville, IN",
+      "lat": 37.9716,
+      "lon": -87.5711,
+      "state": "IN",
+      "fileSize": 342.7
+    },
+    {
+      "id": "SBN",
+      "name": "South Bend, IN",
+      "lat": 41.6764,
+      "lon": -86.252,
+      "state": "IN",
+      "fileSize": 335.9
+    },
+    {
+      "id": "LAN2",
+      "name": "Lansing, MI",
+      "lat": 42.7325,
+      "lon": -84.5555,
+      "state": "MI",
+      "fileSize": 335.5
+    },
+    {
+      "id": "ARB",
+      "name": "Ann Arbor, MI",
+      "lat": 42.2808,
+      "lon": -83.743,
+      "state": "MI",
+      "fileSize": 335.5
+    },
+    {
+      "id": "KAL",
+      "name": "Kalamazoo, MI",
+      "lat": 42.2917,
+      "lon": -85.5872,
+      "state": "MI",
+      "fileSize": 336.2
+    },
+    {
+      "id": "FNT",
+      "name": "Flint, MI",
+      "lat": 43.0125,
+      "lon": -83.6875,
+      "state": "MI",
+      "fileSize": 336.3
+    },
+    {
+      "id": "GRB",
+      "name": "Green Bay, WI",
+      "lat": 44.5133,
+      "lon": -88.0133,
+      "state": "WI",
+      "fileSize": 338.7
+    },
+    {
+      "id": "DLH",
+      "name": "Duluth, MN",
+      "lat": 46.7867,
+      "lon": -92.1005,
+      "state": "MN",
+      "fileSize": 338.3
+    },
+    {
+      "id": "RST",
+      "name": "Rochester, MN",
+      "lat": 44.0121,
+      "lon": -92.4802,
+      "state": "MN",
+      "fileSize": 337.0
+    },
+    {
+      "id": "SXF",
+      "name": "Sioux Falls, SD",
+      "lat": 43.5446,
+      "lon": -96.7311,
+      "state": "SD",
+      "fileSize": 338.0
+    },
+    {
+      "id": "RAP",
+      "name": "Rapid City, SD",
+      "lat": 44.0805,
+      "lon": -103.231,
+      "state": "SD",
+      "fileSize": 334.9
+    },
+    {
+      "id": "MIS",
+      "name": "Missoula, MT",
+      "lat": 46.8721,
+      "lon": -113.994,
+      "state": "MT",
+      "fileSize": 331.5
+    },
+    {
+      "id": "BIL",
+      "name": "Billings, MT",
+      "lat": 45.7833,
+      "lon": -108.5007,
+      "state": "MT",
+      "fileSize": 332.8
+    },
+    {
+      "id": "CAS",
+      "name": "Casper, WY",
+      "lat": 42.8666,
+      "lon": -106.3131,
+      "state": "WY",
+      "fileSize": 335.7
+    },
+    {
+      "id": "CHE",
+      "name": "Cheyenne, WY",
+      "lat": 41.14,
+      "lon": -104.8202,
+      "state": "WY",
+      "fileSize": 335.7
+    },
+    {
+      "id": "FTG",
+      "name": "Fort Collins, CO",
+      "lat": 40.5853,
+      "lon": -105.0844,
+      "state": "CO",
+      "fileSize": 334.5
+    },
+    {
+      "id": "PUB",
+      "name": "Pueblo, CO",
+      "lat": 38.2544,
+      "lon": -104.6091,
+      "state": "CO",
+      "fileSize": 335.2
+    },
+    {
+      "id": "PRO",
+      "name": "Provo, UT",
+      "lat": 40.2338,
+      "lon": -111.6585,
+      "state": "UT",
+      "fileSize": 333.4
+    },
+    {
+      "id": "OGD",
+      "name": "Ogden, UT",
+      "lat": 41.223,
+      "lon": -111.9738,
+      "state": "UT",
+      "fileSize": 332.2
+    },
+    {
+      "id": "FLG",
+      "name": "Flagstaff, AZ",
+      "lat": 35.1983,
+      "lon": -111.6513,
+      "state": "AZ",
+      "fileSize": 336.5
+    },
+    {
+      "id": "LCR",
+      "name": "Las Cruces, NM",
+      "lat": 32.3199,
+      "lon": -106.7637,
+      "state": "NM",
+      "fileSize": 336.5
+    },
+    {
+      "id": "MED",
+      "name": "Media, PA",
+      "lat": 39.9168,
+      "lon": -75.3877,
+      "state": "PA",
+      "fileSize": 342.4
+    },
+    {
+      "id": "CPR",
+      "name": "Cape Coral, FL",
+      "lat": 26.5629,
+      "lon": -81.9495,
+      "state": "FL",
+      "fileSize": 351.2
+    },
+    {
+      "id": "NAP",
+      "name": "Naples, FL",
+      "lat": 26.142,
+      "lon": -81.7948,
+      "state": "FL",
+      "fileSize": 351.3
+    },
+    {
+      "id": "SMN",
+      "name": "San Marcos, TX",
+      "lat": 29.8833,
+      "lon": -97.9414,
+      "state": "TX",
+      "fileSize": 339.3
+    },
+    {
+      "id": "MYR",
+      "name": "Myrtle Beach, SC",
+      "lat": 33.6891,
+      "lon": -78.8867,
+      "state": "SC",
+      "fileSize": 346.3
+    },
+    {
+      "id": "CNO",
+      "name": "Concord, NH",
+      "lat": 43.2081,
+      "lon": -71.5376,
+      "state": "NH",
+      "fileSize": 341.5
+    },
+    {
+      "id": "BNG",
+      "name": "Bangor, ME",
+      "lat": 44.8016,
+      "lon": -68.7712,
+      "state": "ME",
+      "fileSize": 343.2
+    },
+    {
+      "id": "SML",
+      "name": "Salem, OR",
+      "lat": 44.9429,
+      "lon": -123.0351,
+      "state": "OR",
+      "fileSize": 334.0
+    },
+    {
+      "id": "OLY",
+      "name": "Olympia, WA",
+      "lat": 47.0379,
+      "lon": -122.9007,
+      "state": "WA",
+      "fileSize": 333.3
+    },
+    {
+      "id": "FRS2",
+      "name": "Fresno, CA (Clovis)",
+      "lat": 36.8252,
+      "lon": -119.7029,
+      "state": "CA",
+      "fileSize": 332.9
+    },
+    {
+      "id": "OXN",
+      "name": "Oxnard, CA",
+      "lat": 34.1975,
+      "lon": -119.1771,
+      "state": "CA",
+      "fileSize": 346.2
+    },
+    {
+      "id": "SBB",
+      "name": "Santa Barbara, CA",
+      "lat": 34.4208,
+      "lon": -119.6982,
+      "state": "CA",
+      "fileSize": 345.5
+    },
+    {
+      "id": "MOD",
+      "name": "Modesto, CA",
+      "lat": 37.6391,
+      "lon": -120.9969,
+      "state": "CA",
+      "fileSize": 339.6
+    },
+    {
+      "id": "RDD",
+      "name": "Redding, CA",
+      "lat": 40.5865,
+      "lon": -122.3917,
+      "state": "CA",
+      "fileSize": 330.9
+    },
+    {
+      "id": "MCE",
+      "name": "Merced, CA",
+      "lat": 37.3022,
+      "lon": -120.483,
+      "state": "CA",
+      "fileSize": 335.3
+    },
+    {
+      "id": "VIS",
+      "name": "Visalia, CA",
+      "lat": 36.3302,
+      "lon": -119.2921,
+      "state": "CA",
+      "fileSize": 334.8
+    },
+    {
+      "id": "MTY",
+      "name": "Monterey, CA",
+      "lat": 36.6002,
+      "lon": -121.8947,
+      "state": "CA",
+      "fileSize": 345.6
+    },
+    {
+      "id": "MFR",
+      "name": "Medford, OR",
+      "lat": 42.3265,
+      "lon": -122.8756,
+      "state": "OR",
+      "fileSize": 327.6
+    },
+    {
+      "id": "BLI",
+      "name": "Bellingham, WA",
+      "lat": 48.7519,
+      "lon": -122.4787,
+      "state": "WA",
+      "fileSize": 333.0
+    },
+    {
+      "id": "YAK",
+      "name": "Yakima, WA",
+      "lat": 46.6021,
+      "lon": -120.5059,
+      "state": "WA",
+      "fileSize": 329.1
+    },
+    {
+      "id": "LEW",
+      "name": "Lewiston, ID",
+      "lat": 46.4165,
+      "lon": -117.0177,
+      "state": "ID",
+      "fileSize": 328.9
+    },
+    {
+      "id": "IFE",
+      "name": "Idaho Falls, ID",
+      "lat": 43.4666,
+      "lon": -112.0341,
+      "state": "ID",
+      "fileSize": 333.8
+    },
+    {
+      "id": "HLN",
+      "name": "Helena, MT",
+      "lat": 46.5958,
+      "lon": -112.027,
+      "state": "MT",
+      "fileSize": 332.8
+    },
+    {
+      "id": "GFK",
+      "name": "Grand Forks, ND",
+      "lat": 47.9253,
+      "lon": -97.0329,
+      "state": "ND",
+      "fileSize": 340.2
+    },
+    {
+      "id": "MSN",
+      "name": "Mankato, MN",
+      "lat": 44.1636,
+      "lon": -93.9994,
+      "state": "MN",
+      "fileSize": 337.9
+    },
+    {
+      "id": "STC",
+      "name": "St. Cloud, MN",
+      "lat": 45.5579,
+      "lon": -94.1632,
+      "state": "MN",
+      "fileSize": 337.9
+    },
+    {
+      "id": "EAU",
+      "name": "Eau Claire, WI",
+      "lat": 44.8113,
+      "lon": -91.4985,
+      "state": "WI",
+      "fileSize": 337.9
+    },
+    {
+      "id": "LAC",
+      "name": "La Crosse, WI",
+      "lat": 43.8014,
+      "lon": -91.2396,
+      "state": "WI",
+      "fileSize": 337.5
+    },
+    {
+      "id": "PEO",
+      "name": "Peoria, IL",
+      "lat": 40.6936,
+      "lon": -89.589,
+      "state": "IL",
+      "fileSize": 339.6
+    },
+    {
+      "id": "SPG",
+      "name": "Springfield, IL",
+      "lat": 39.7817,
+      "lon": -89.6501,
+      "state": "IL",
+      "fileSize": 338.6
+    },
+    {
+      "id": "RFD",
+      "name": "Rockford, IL",
+      "lat": 42.2711,
+      "lon": -89.094,
+      "state": "IL",
+      "fileSize": 337.0
+    },
+    {
+      "id": "CHA2",
+      "name": "Champaign, IL",
+      "lat": 40.1164,
+      "lon": -88.2434,
+      "state": "IL",
+      "fileSize": 336.8
+    },
+    {
+      "id": "DBQ",
+      "name": "Dubuque, IA",
+      "lat": 42.5006,
+      "lon": -90.6646,
+      "state": "IA",
+      "fileSize": 338.3
+    },
+    {
+      "id": "DAV",
+      "name": "Davenport, IA",
+      "lat": 41.5236,
+      "lon": -90.5776,
+      "state": "IA",
+      "fileSize": 337.3
+    },
+    {
+      "id": "ICT2",
+      "name": "Iowa City, IA",
+      "lat": 41.6611,
+      "lon": -91.5302,
+      "state": "IA",
+      "fileSize": 337.6
+    },
+    {
+      "id": "TOP",
+      "name": "Topeka, KS",
+      "lat": 39.0473,
+      "lon": -95.6752,
+      "state": "KS",
+      "fileSize": 336.8
+    },
+    {
+      "id": "LAW",
+      "name": "Lawrence, KS",
+      "lat": 38.9717,
+      "lon": -95.2353,
+      "state": "KS",
+      "fileSize": 335.6
+    },
+    {
+      "id": "FAY",
+      "name": "Fayetteville, NC",
+      "lat": 35.0527,
+      "lon": -78.8784,
+      "state": "NC",
+      "fileSize": 344.7
+    },
+    {
+      "id": "ASH",
+      "name": "Asheville, NC",
+      "lat": 35.5951,
+      "lon": -82.5515,
+      "state": "NC",
+      "fileSize": 335.9
+    },
+    {
+      "id": "MAC",
+      "name": "Macon, GA",
+      "lat": 32.8407,
+      "lon": -83.6324,
+      "state": "GA",
+      "fileSize": 344.2
+    },
+    {
+      "id": "ATH",
+      "name": "Athens, GA",
+      "lat": 33.9519,
+      "lon": -83.3576,
+      "state": "GA",
+      "fileSize": 336.3
+    },
+    {
+      "id": "ROA",
+      "name": "Roanoke, VA",
+      "lat": 37.271,
+      "lon": -79.9414,
+      "state": "VA",
+      "fileSize": 334.5
+    },
+    {
+      "id": "LYN",
+      "name": "Lynchburg, VA",
+      "lat": 37.4138,
+      "lon": -79.1422,
+      "state": "VA",
+      "fileSize": 336.1
+    },
+    {
+      "id": "CHA3",
+      "name": "Charlottesville, VA",
+      "lat": 38.0293,
+      "lon": -78.4767,
+      "state": "VA",
+      "fileSize": 338.0
+    },
+    {
+      "id": "WPT",
+      "name": "Wheeling, WV",
+      "lat": 40.064,
+      "lon": -80.7209,
+      "state": "WV",
+      "fileSize": 335.1
+    },
+    {
+      "id": "MRG",
+      "name": "Morgantown, WV",
+      "lat": 39.6295,
+      "lon": -79.9559,
+      "state": "WV",
+      "fileSize": 334.7
+    }
+  ]
+}
